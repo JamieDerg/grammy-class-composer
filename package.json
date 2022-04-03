@@ -1,0 +1,42 @@
+{
+  "name": "grammy-class-composer",
+  "version": "1.0.0",
+  "description": "A simple composer to use Grammy js in a more Object oriented way",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamieDerg/grammy-class-composer"
+},
+  "main": "out/index.js",
+  "files": [
+    "out",
+    "README.md"
+  ],
+  "type": "commonjs",
+  "exports": {
+    ".": "./out/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Grammy",
+    "telegram",
+    "bot",
+    "class",
+    "composer"
+  ],
+  "author": "jamie_derg",
+  "license": "ISC",
+  "peerDependencies": {
+    "glob": "^7.2.0",
+    "grammy": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "eslint": "^8.11.0",
+    "typescript": "^4.6.2"
+  }
+}
