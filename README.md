@@ -1,4 +1,4 @@
-quei# Class Composer
+# Class Composer
 `grammy-class-composer` is a proof of concept Plugin to add a class based Syntax to grammy. <br>
 DISCLAIMER this is a proof of concept and will not be developed further, feel free to modify or use this as a springboard for a full pfledged plugin in the future.
 
